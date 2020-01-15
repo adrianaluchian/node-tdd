@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-tdd",
+  "version": "1.0.0",
+  "description": "Simple boilerplate project for TDD tasks",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aluchian/nodejs-tdd.git"
+  },
+  "author": "Adriana Luchian",
+  "license": "MIT",
+  "homepage": "https://github.com/aluchian/nodejs-tdd#readme"
+}
