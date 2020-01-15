@@ -2,23 +2,36 @@
   "name": "nodejs-tdd",
   "version": "1.0.0",
   "description": "Simple boilerplate project for TDD tasks",
+  "author": "Adriana Luchian",
+  "license": "MIT",
+  "homepage": "https://github.com/aluchian/nodejs-tdd#readme",
   "main": "src/index.js",
   "scripts": {
     "lint": "eslint src",
-    "test": "npm run lint && jest --colors"
+    "test": "jest --colors",
+    "tdd": "watch 'npm run lint && npm run test' src"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aluchian/nodejs-tdd.git"
   },
-  "author": "Adriana Luchian",
-  "license": "MIT",
-  "homepage": "https://github.com/aluchian/nodejs-tdd#readme",
   "devDependencies": {
     "eslint": "~6.8.0",
-    "jest": "~24.9.0"
+    "jest": "~24.9.0",
+    "watch": "~1.0.2"
   },
   "jest": {
     "rootDir": "src"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": 1,
+      "jest": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 7,
+      "sourceType": "module"
+    }
   }
 }
