@@ -4,7 +4,8 @@
   "description": "Simple boilerplate project for TDD tasks",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint src",
+    "test": "npm run lint && jest --colors"
   },
   "repository": {
     "type": "git",
@@ -12,5 +13,12 @@
   },
   "author": "Adriana Luchian",
   "license": "MIT",
-  "homepage": "https://github.com/aluchian/nodejs-tdd#readme"
+  "homepage": "https://github.com/aluchian/nodejs-tdd#readme",
+  "devDependencies": {
+    "eslint": "~6.8.0",
+    "jest": "~24.9.0"
+  },
+  "jest": {
+    "rootDir": "src"
+  }
 }
