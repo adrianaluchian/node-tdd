@@ -4,7 +4,7 @@ Simple boilerplate project for TDD tasks.
 
 ## npm scripts
 
-`lint`: lints all files in 'src' folder
+`lint`: runs linting rules
 
 `test`: runs all tests found in the 'src' folder
 
