@@ -1,6 +1,6 @@
-# nodejs-tdd
+# node-tdd
 
-Simple boilerplate project for TDD tasks.
+Simple boilerplate NodeJS project for TDD tasks.
 
 ## npm scripts
 
