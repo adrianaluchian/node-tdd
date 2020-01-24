@@ -8,4 +8,4 @@ Simple boilerplate project for TDD tasks.
 
 `test`: runs all tests found in the 'src' folder
 
-`tdd`: watches for any changes in the 'src' folder and runs lint and test
+`tdd`: watches for any changes in the 'src' folder and runs lint and test´
